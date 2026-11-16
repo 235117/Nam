@@ -1,0 +1,23 @@
+{
+  "topics": [
+    ["Complexity", "Big-O describes how time or memory grows with input size: O(1), O(log n), O(n), O(n log n), O(n²)."],
+    ["Array", "A block of contiguous memory with O(1) index access; insertion or deletion in the middle costs O(n)."],
+    ["Linked List", "Nodes holding data plus a pointer to the next node. Fast insert/delete, slow random access."],
+    ["Stack", "LIFO structure: push and pop at the top. Used in undo, recursion and expression evaluation."],
+    ["Queue", "FIFO structure: enqueue at the rear, dequeue at the front. Used in scheduling and BFS."],
+    ["Tree", "Hierarchical nodes. A binary search tree keeps left < root < right, giving O(log n) search when balanced."],
+    ["Graph", "Vertices connected by edges. Traversed with BFS (queue) or DFS (stack/recursion)."],
+    ["Sorting", "Bubble, selection and insertion sort are O(n²); merge and quick sort are O(n log n) on average."],
+    ["Searching", "Linear search is O(n); binary search needs sorted data and runs in O(log n)."]
+  ],
+  "quiz": [
+    { "q": "Which data structure follows LIFO?", "options": ["Queue", "Stack", "Tree", "Graph"], "answer": 1 },
+    { "q": "Time complexity of binary search?", "options": ["O(n)", "O(n²)", "O(log n)", "O(1)"], "answer": 2 },
+    { "q": "Which structure is used in BFS?", "options": ["Stack", "Queue", "Heap", "Array"], "answer": 1 },
+    { "q": "Accessing an array element by index costs?", "options": ["O(1)", "O(n)", "O(log n)", "O(n²)"], "answer": 0 },
+    { "q": "Which sort has O(n log n) average time?", "options": ["Bubble sort", "Selection sort", "Merge sort", "Insertion sort"], "answer": 2 },
+    { "q": "A linked list node contains?", "options": ["Only data", "Data and next pointer", "Only a pointer", "An index"], "answer": 1 },
+    { "q": "In a BST, the left child is ___ the parent.", "options": ["greater than", "equal to", "smaller than", "unrelated to"], "answer": 2 },
+    { "q": "Binary search requires the data to be?", "options": ["Sorted", "Unique", "Linked", "Hashed"], "answer": 0 }
+  ]
+}
